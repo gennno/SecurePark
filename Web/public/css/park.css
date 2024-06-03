@@ -1,0 +1,82 @@
+.logo {
+    max-height: 70px;
+    height: 100%;
+    width: auto;
+    border-radius: 15%;
+}
+.kotak {
+    width: 50px;
+    height: 100px;
+}
+.kotak-bawah {
+    margin-top: 0px;
+}
+.ket-bawah {
+    margin-top: 50px;
+}
+.slot {
+    height: 150px;
+    width: auto;
+    margin: 5px; /* Add margin to create space between slots */
+    padding: 0;
+}
+.slot-tersedia {
+    background-color: #7aec68;
+}
+.slot-terisi {
+    background-color: #ff0000;
+}
+.tersedia {
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #7aec68;
+    color: black;
+}
+.terisi {
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #ff0000;
+    color: black;
+}
+.element {
+    background-color: white;
+}
+.element:fullscreen {
+    background-color: white;
+}
+.btn-full {
+    width: 150px;
+}
+body {
+    min-height: 600px;
+}
+.area-park {
+    padding: 50px;
+    background-color: white;
+    color: white;
+}
+.gate, .barrier {
+    width: 180px; /* Adjust size as needed */
+    height: 200;
+    margin: 10px;
+}
+.entrance-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-right: 10px;
+    color: black;
+    font-weight: bold;
+}
+.exit-text {
+    writing-mode: vertical-lr;
+    margin-right: 10px;
+    color: black;
+    font-weight: bold;
+}
+.jalan {
+    width: 100%; /* Agar gambar jalan mengisi lebar penuh */
+    height: 7; /* Tinggi disesuaikan otomatis */
+    margin: 0; /* Hapus margin atas dan bawah */
+}
